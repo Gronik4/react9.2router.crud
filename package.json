@@ -1,0 +1,34 @@
+{
+  "name": "react9.2router.crud.back",
+  "version": "1.0.0",
+  "description": "блок React ДЗ №9.2(router) задача: Crud-back.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gronik4/react9.2router.crud.back.git"
+  },
+  "author": "Gronik4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gronik4/react9.2router.crud.back/issues"
+  },
+  "homepage": "https://github.com/Gronik4/react9.2router.crud.back#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa2-cors": "2.0.6",
+    "koa-router": "7.4.0",
+    "nanoid": "^4.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
